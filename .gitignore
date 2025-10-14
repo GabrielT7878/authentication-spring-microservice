@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Docker Volumes ###
+
+src/main/java/dev/gabrielt/microservices/authentication_service/infra/database/data/*
