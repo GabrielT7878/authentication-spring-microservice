@@ -1,7 +1,7 @@
 services:
   postgres:
-    image: postgres:17
-    container_name: postgres
+    image: postgres:16.10
+    container_name: postgres_authentication_service
     environment:
       POSTGRES_USER: local_user
       POSTGRES_PASSWORD: local_password
